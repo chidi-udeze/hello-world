@@ -27,14 +27,14 @@ def welcome_assignment_answers(question):
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         answer = None 
-    return (answer)
+    return ("No")
 # Complete all the questions.
 
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
     debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
-    print(welcome_assignment_answers(debug_question))
+    #print(welcome_assignment_answers(debug_question))
 
 ###Questions:
 ###"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
