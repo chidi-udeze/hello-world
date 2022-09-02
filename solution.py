@@ -20,21 +20,21 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer from the TCP/IP model does the protocol DHCP belong to? - The answer should be an integer number":
-        answer = 7
+        answer = 2
     elif question == "What layer of the TCP/IP model does the protocol TCP belong to? - The answer should be an integer number":
-        answer = 3
+        answer = 4
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         answer = None 
-    return ("No")
+    return answer
 # Complete all the questions.
 
 
 if __name__ == "__main__":
     #use this space to debug and verify that the program works
     debug_question = "Is MD5 a secured hashing algorithm? - Yes/No"
-    #print(welcome_assignment_answers(debug_question))
+    print(welcome_assignment_answers(debug_question))
 
 ###Questions:
 ###"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?"
