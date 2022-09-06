@@ -26,6 +26,8 @@ def welcome_assignment_answers(question):
         answer = 4
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
         answer = 3
+    else:
+        answer = None
     return(answer)
      
         ### you should understand why this else case should be included
