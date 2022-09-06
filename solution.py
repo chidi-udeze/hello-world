@@ -23,13 +23,14 @@ def welcome_assignment_answers(question):
         answer = 5
     elif question == "What layer of the TCP/IP model does the protocol TCP belong to? - The answer should be an integer number":
         answer = 4
+    return(answer)
      
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
         # what layer of the tcp/ip model does the protocol icmp belong to?
         # What layer of the TCP/IP model does the protocol DNS belong to?
         
-    return 
+    #return answer
 # Complete all the questions.
 
 
